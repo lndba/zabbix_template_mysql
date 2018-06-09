@@ -1,0 +1,2 @@
+# zabbix_template_mysql
+zabbix监控MySQL模版
