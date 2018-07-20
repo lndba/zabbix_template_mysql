@@ -40,11 +40,13 @@ proc:   mysqld
 
 5. check_list.txt文件配置MySQL信息详解
 
+```
 第一行：服务名，端口号，主从，MySQL用户名，MySQL密码
 第二行：进程，进程名
 温馨提示：数据库账号授权方法：
 GRANT USAGE,PROCESS,REPLICATION CLIENT,REPLICATION SLAVE ON *.* TO 'zabbix'@'localhost' IDENTIFIED BY 'zabbix123.Com';
 flush privileges;
+```
 
 ##Zabbix界面配置
 1. 导入模版
