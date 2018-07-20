@@ -48,7 +48,7 @@ GRANT USAGE,PROCESS,REPLICATION CLIENT,REPLICATION SLAVE ON *.* TO 'zabbix'@'loc
 flush privileges;
 ```
 
-##Zabbix界面配置
+## Zabbix界面配置
 1. 导入模版
 ![](.img-folder/15320914268637/15320923293018.jpg)
 
