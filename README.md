@@ -13,7 +13,7 @@
 2. 将自定义监控文件monitor.conf文件上传到/etc/zabbix/zabbix_agentd.d下
 
 ```
-[root@linux-node1]# cat /etc/zabbix/zabbix_agentd.d/monitor.conf
+[root@linux-node1 ~]# cat /etc/zabbix/zabbix_agentd.d/monitor.conf
 # MySQL Status
 UserParameter=mysql.discovery,/server/scripts/zabbix_monitor/monitor_mysql.sh discovery
 UserParameter=mysql.slave.discovery,sh /server/scripts/zabbix_monitor/monitor_mysql.sh slave_discovery
