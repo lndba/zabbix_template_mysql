@@ -1,6 +1,7 @@
 #!/bin/bash
 #===================Script Description===================
 #Scripts_name     : monitor_mysql.sh
+#Version          : V1.0.1
 #Scripts_function : This script applies to MySQL monitoring based on the ZABBIX template.
 #Author           : 行思(Lionel Wang)
 #E_mail           : zhiwei_wang@163.com
